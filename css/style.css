@@ -94,10 +94,8 @@
 }
 
 .main{
-	background: url("../img/by.jpg");
-	background-size: 100% auto;
-	background-position: auto 50%;
-	height: 80%;
+	background: url("../img/by2.jpg");
+	background-size: 100% 530px;
 	width: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
