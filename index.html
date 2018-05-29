@@ -104,10 +104,13 @@
 
     // 提交
     function push() {
-        if ($("#word").val() == '') {
-            layer.alert('寄语不能为空哟！');
+        if($('#schoolName').val()==''){
+            layer.alert('学校名称不能为空！');
             return;
-        } else if ($("#word").val() > 200) {
+        }else if ($("#word").val() == '') {
+            layer.alert('寄语不能为空！');
+            return;
+        }  else if ($("#word").val() > 200) {
             layer.alert('寄语太长了！');
             return;
         }
